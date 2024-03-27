@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* path {
+    fill: #fff
+} */
+
+g {
+    fill: #fff;
+}
+
+
+@font-face {
+    font-family: curved;
+    src: url(https://brewdistrict24.com/assets/fonts/freudian_one-webfont.woff2);
+}
+
+@font-face {
+    font-family: sharped;
+    src: url(https://brewdistrict24.com/assets/fonts/roseford-webfont.woff2);
+}
+
+@font-face {
+    font-family: thin;
+    src: url(https://brewdistrict24.com/assets/fonts/Eczar-Regular.woff2);
+}
+
+@layer base {
+    .footer p {
+        font-family: thin,
+    }
+}
+
+/* @keyframes switch {
+    from{
+        transform: translateX('-5%');
+    }
+    to{
+        transform: translateX('5%');
+    }
+}
+.canSwitcher{
+    animation: all switch  0.7s ;
+    cursor: pointer;
+} */
+.color1 {
+    transition: background-color 1s ease-in-out;
+}
+
+main {
+    font-family: curved;
+}
+
+
+.canSection h1 {
+    font-family: sharped;
+}
+
+.footet p,
+.canSection p {
+    font-family: thin;
+}
+
+.canDetailDivision h3 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.canDetailDivision h4 {
+    font-size: 23px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.footer h2,
+.contactSection h2,
+.aboutSection h2 {
+    font-family: sharped;
+}
+
+canvas {
+    display: block;
+    z-index: 98;
+}
+
+.aboutSection span {
+    font-family: curved;
+    opacity: 0.7;
+}
+
+/* .canContainer{
+    pointer-events: none;
+} */
+.foreground {
+    pointer-events: none;
+}
+
+.contactSection h6,
+.contactSection p,
+.aboutSection p {
+    font-family: thin;
+}
+
+@keyframes dotter {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.lineitem {
+    animation: dotter 30s infinite;
+}
+
+
+.contactSection span {
+    font-family: curved;
+}
