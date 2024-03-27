@@ -5,7 +5,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { Power4 } from "gsap/all";
-import { RefProvider, useRefContext } from "../Context/context.jsx";
+// import { RefProvider, useRefContext } from "../Context/context.jsx";
 
 function Can1({ modelDecider}) {
   const gltf1 = useLoader(GLTFLoader, "/can1.gltf");
@@ -98,7 +98,7 @@ function Can1({ modelDecider}) {
         trigger: ".aboutSection",
         start: "top 30%",
         end: "20%% 30%",
-        markers: true,
+        // markers: true,
         scrub: 2,
       },
     });

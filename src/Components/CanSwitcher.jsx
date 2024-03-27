@@ -1,5 +1,5 @@
 import React from "react";
-import { RefProvider, useRefContext } from "../Context/context.jsx";
+// import { RefProvider, useRefContext } from "../Context/context.jsx";
 
 function CanSwitcher({
   modelDecider,
@@ -24,7 +24,7 @@ function CanSwitcher({
       onClick={() => {
         modelDeciderMethod()
       }}
-      ref={canSwitcherRef}
+      // ref={canSwitcherRef}
       class="canSwitcher flex items-center  px-4 justify-start w-[170px] h-[170px] rounded-full fixed xl:right-[-10px] z-[999] xl:translate-x-1/2  xl:top-1/2 xl:-translate-y-1/2 bg-[#f6682b] xl:bottom-0 -bottom-[100px] xl:rotate-0  rotate-90  xl:left-[88%] left-1/2 -translate-x-1/2"
     >
       <div class="label relative xl:rotate-0  rotate-90 left-[15px] xl:left-[25px] w-[10px] h-[10px]">

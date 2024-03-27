@@ -16,9 +16,10 @@ function Background({ modelDecider }) {
       <div class="canContainer z-[98]  w-[100vw] h-[100vh]">
         <Canvas>
           <PerspectiveCamera args={[0, 0, 5]} />
-          <directionalLight position={[6,2,5]} color={0xffffff} intensity={2} />
-          <directionalLight position={[-6,2,5]} color={0xffffff} intensity={1.8} />
+          <directionalLight position={[8,2,5]} color={0xffffff} intensity={2} />
+          <directionalLight position={[-8,2,5]} color={0xffffff} intensity={1.8} />
           <Can1 modelDecider={modelDecider} />
+          <Environment preset="sunset"/>
         </Canvas>
       </div>
     </div>
