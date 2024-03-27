@@ -206,7 +206,7 @@ function Nav() {
         <div class="orderNowBtn xl:block hidden hover:bg-zinc-100 cursor-pointer px-6 py-2 bg-[#ff834f] text-zinc-900  rounded-3xl">
           <h1 class="text-md font-light">order now</h1>
         </div>
-        <div class="shop xl:block hidden hover:opacity-[0.7] cursor-pointer rounded-full overflow-hidden w-[40px] flex items-center justify-center h-[40px] border-[1px] border-zinc-100">
+        <div class="shop hidden xl:flex  hover:opacity-[0.7] cursor-pointer rounded-full overflow-hidden w-[40px] items-center justify-center h-[40px] border-[1px] border-zinc-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-[20px] h-[20px]"
