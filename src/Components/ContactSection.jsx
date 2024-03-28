@@ -3,6 +3,7 @@ import React from "react";
 function ContactSection() {
   return (
     <div
+      data-enable-touch-speed
       data-scroll
       data-scroll-speed=".4"
       data-scroll-offset="-100%, 100%"
