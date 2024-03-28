@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div data-scroll data-scroll-speed="-.6" data-scroll-offset="100%, 100%"
+    <div data-enable-touch-speed data-scroll data-scroll-speed="-.6" data-scroll-offset="100%, 100%"
                 class="footer w-full h-[80vh] flex items-center justify-center relative xl:gap-[60px] z-[1] xl:flex-row flex-col bg-[#000000ca] ">
                 <div class="flex  flex-col xl:flex-row  items-center justify-center gap-[20px] xl:gap-[80px] xl:absolute xl:top-1/2 xl:-translate-y-1/2 xl:left-[15vw]">
                     <h2 class="text-3xl xl:text-[55px] w-[90vw] xl:w-[19vw] leading-none">BD24 IN YOUR HOOD?</h2>
