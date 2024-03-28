@@ -3,6 +3,7 @@ import React from "react";
 function AboutSection() {
   return (
     <div
+      data-enable-touch-speed
       data-scroll
       data-scroll-speed=".6"
       data-scroll-offset="-300%, 120%"
