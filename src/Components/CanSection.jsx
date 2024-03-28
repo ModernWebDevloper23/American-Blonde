@@ -3,6 +3,7 @@ import React from "react";
 function CanSection({modelDecider}) {
   return (
     <div
+      data-enable-touch-speed
       data-scroll
       data-scroll-speed="-.2"
       class=" canSection bg-stone-600 h-screen  w-full relative "
