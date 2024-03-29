@@ -82,8 +82,8 @@ function Can1({ modelDecider}) {
       y: "80%",
       scrollTrigger: {
         trigger: ".aboutSection",
-        start: "top 30%",
-        end: "20%% 30%",
+        start: "top 60%",
+        end: "20%% 60%",
         // markers: true,
         scrub: 2,
         // onLeave: () => {
@@ -96,8 +96,8 @@ function Can1({ modelDecider}) {
       y: 6,
       scrollTrigger: {
         trigger: ".aboutSection",
-        start: "top 30%",
-        end: "20%% 30%",
+        start: "top 60%",
+        end: "20%% 60%",
         // markers: true,
         scrub: 2,
       },
@@ -108,8 +108,8 @@ function Can1({ modelDecider}) {
       y: 6,
       scrollTrigger: {
         trigger: ".contactSection",
-        start: "top 30%",
-        end: "40% 30%",
+        start: "top 60%",
+        end: "40% 60%",
 
         // markers: true,
         scrub: 2,
@@ -119,8 +119,8 @@ function Can1({ modelDecider}) {
       y: "140%",
       scrollTrigger: {
         trigger: ".contactSection",
-        start: "top 30%",
-        end: "40% 30%",
+        start: "top 60%",
+        end: "40% 60%",
 
         scrub: 2,
         onLeave: () => {
